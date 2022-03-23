@@ -30,7 +30,6 @@ const PersonSchema = new Schema(
       type: Number,
       required: true,
       maximum: 59999999999,
-      min: 5000000000,
       unique: true,
     },
   },
